@@ -46,7 +46,7 @@ Running Medium will require more RAM/VRAM. Under resource constraints, you can r
 ### Step 1. Installation
 
 ```bash
-!git clone https://github.com/YOUR_USERNAME/asr-robustness-benchmark.git
+!git clone https://github.com/alexandr-redkin/practise_to_scenariy.git
 %cd asr-robustness-benchmark
 !pip install -r requirements.txt
 !pip install -e .
