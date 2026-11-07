@@ -24,7 +24,7 @@ The project directly maps to the research material: FLEURS test subsets (kk_kz a
 To install and run a pilot experiment:
 
 ```bash
-!git clone [https://github.com/YOUR_USERNAME/asr-robustness-benchmark.git](https://github.com/YOUR_USERNAME/asr-robustness-benchmark.git)
+!git clone https://github.com/alexandr-redkin/practise_to_scenariy.git
 %cd asr-robustness-benchmark
 !pip install -r requirements.txt
 !pip install -e .
