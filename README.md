@@ -6,11 +6,11 @@ The project continues the preliminary analysis of Google FLEURS (kk_kz, ru_ru) a
 
 > **Important Interpretation Constraint.** Adding noise, changing gain, filtering bandwidth, and resampling are controlled acoustic perturbations for an initial assessment of ASR robustness. They do not constitute full-fledged deepfake/voice conversion generation and do not prove the system's ability to detect spoofed speech. Such conclusions require separate sets of spoofed audio and dedicated spoofing detection models.
 
-## 1. Relation to the Scientific Article
+1. Relation to the Scientific Article
 
 The project directly maps to the research material: FLEURS test subsets (kk_kz and ru_ru) are utilized as input data, audio fields and transcriptions serve as input signals and references, the medical glossary (`data/glossary/medical_terms.json`) powers the MTRA metric for terminology error analysis, and WER/CER calculations evaluate performance across models and audio conditions while accounting for the general-speech limitations of the corpus.
 
-## 2. Features
+2. Features
 
 - Two multilingual ASR baselines: Whisper Small and Whisper Medium (`openai/whisper-small`, `openai/whisper-medium`).
 - Two languages: Kazakh and Russian.
@@ -19,7 +19,7 @@ The project directly maps to the research material: FLEURS test subsets (kk_kz a
 - Export of detailed results and an aggregated summary table to CSV.
 - Optional saving of processed audio files and unit tests for audio transformations and metrics.
 
-## 3. Running in Google Colab
+3. Running in Google Colab
 
 To install and run a pilot experiment:
 
